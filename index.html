@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>闪耀吧噜咪 - 新手全攻略</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background-color: #121a2b;
+            color: #fff;
+            line-height: 1.7;
+        }
+        /* 顶部导航栏 */
+        nav {
+            background-color: #1e2b45;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 12px 0;
+            font-size: 15px;
+        }
+        nav a {
+            color: #d0d8e8;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #4aa8ff;
+        }
+        /* 顶部横幅 */
+        .banner {
+            background: linear-gradient(90deg, #1a3a70, #3498db);
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .banner h1 {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+        .banner p {
+            font-size: 16px;
+            color: #e0e9ff;
+        }
+        /* 内容容器 */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        /* 卡片样式，和你截图里的深色卡片一致 */
+        .card {
+            background-color: #1e2b45;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            color: #4aa8ff;
+            font-size: 20px;
+            margin-bottom: 15px;
+            border-left: 3px solid #4aa8ff;
+            padding-left: 10px;
+        }
+        .card p, .card li {
+            color: #c0cfe8;
+            font-size: 15px;
+            margin: 8px 0;
+        }
+        ul {
+            list-style: disc inside;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav>
+        <a href=" ">游戏简介</a >
+        <a href="#pet">宠物推荐</a >
+        <a href="#resource">资源分配</a >
+        <a href="#map">隐藏点位</a >
+        <a href="#home">家园布局</a >
+        <a href="#bug">卡关BUG</a >
+    </nav>
+
+    <!-- 顶部横幅 -->
+    <div class="banner">
+        <h1>闪耀吧！噜咪 新手全套攻略</h1>
+        <p>新手开局指南｜宠物选择｜资源避坑｜地图隐藏点位 一站式整理</p >
+    </div>
+
+    <div class="container">
+        <!-- 游戏简介 -->
+        <div class="card" id="intro">
+            <h2>游戏简介</h2>
+            <ul>
+                <li>闪耀吧噜咪是近期热门竖屏治愈系捉宠养成经营小游戏</li>
+                <li>单手即可操作，碎片时间就能玩，主打收集噜咪、家园建造、养成升级</li>
+                <li>很多新手开局容易乱花资源、选错宠物、找不到隐藏稀有点位</li>
+                <li>本站汇总全网新手实用干货，帮玩家少走弯路快速发育</li>
+            </ul>
+        </div>
+
+        <!-- 宠物推荐（开局噜咪选择） -->
+        <div class="card" id="pet">
+            <h2>开局最强噜咪宠物推荐</h2>
+            <ul>
+                <li>新手开局优先选择辅助型噜咪，前期刷图性价比最高</li>
+                <li>不要盲目追求稀有度，前期普通品质更容易升级突破</li>
+                <li>前期必练三只核心噜咪，兼顾采集、产出、战力均衡发育</li>
+                <li>避开新手误区：不要一次性培养多只，集中资源拉满主力</li>
+            </ul>
+            <p><strong>详细说明：</strong></p >
+            <p>小火喵：火系输出高，爆发强，推图速度快，适合喜欢速通的玩家。</p >
+            <p>水母贝贝：水系带群体回血，生存能力强，容错高，最适合新手首选。</p >
+            <p>草芽芽：草系控制多，持续毒伤强，适合后期打BOSS和玩法对抗。</p >
+        </div>
+
+        <!-- 资源分配避坑 -->
+        <div class="card" id="resource">
+            <h2>新手资源分配避坑指南</h2>
+            <ul>
+                <li>金币、爱心前期不要随意抽卡、乱兑换道具</li>
+                <li>优先升级家园基础建筑，提升离线资源产出</li>
+                <li>每日任务奖励一定要清完，是稳定资源主要来源</li>
+                <li>零氪玩家不要浪费资源在装饰道具上，优先实用功能</li>
+            </ul>
+            <p><strong>体力使用方法：</strong></p >
+            <p>体力6分钟自动恢复1点，上限120点。不要随便刷低级小怪地图，纯浪费体力。优先刷带有稀有、金色、彩色噜咪的点位地图。</p >
+        </div>
+
+        <!-- 地图隐藏点位 -->
+        <div class="card" id="map">
+            <h2>全地图隐藏噜咪稀有点位</h2>
+            <ul>
+                <li>新手初始地图三处隐藏刷新点，高概率出稀有噜咪</li>
+                <li>不同时间段刷新概率不同，晚间刷新稀有概率更高</li>
+                <li>隐藏宝箱位置汇总，可免费领取爱心、金币、进阶材料</li>
+                <li>未解锁区域前置条件，快速开启全地图探索权限</li>
+            </ul>
+            <p><strong>捕捉技巧：</strong></p >
+            <p>先把野生噜咪血量打低，血量越低捕捉成功率越高；喂食糖果可以大幅提升捕捉概率，先用普通低级捕捉卡试水，失败再用好卡。</p >
+        </div>
+
+        <!-- 家园布局 -->
+        <div class="card" id="home">
+            <h2>家园布局与生产玩法</h2>
+            <ul>
+                <li>优先升级顺序：糖果屋 > 制卡台 > 厨房</li>
+                <li>属性对应分工：火系适合工坊生产，水系适合厨房和种植，草系适合伐木采矿</li>
+                <li>家园可以离线自动产出资源，每天上线记得及时收取</li>
+                <li>一定要保持噜咪饱腹状态，饥饿状态产量直接减半</li>
+            </ul>
+        </div>
+
+        <!-- 卡关BUG与误区纠正 -->
+        <div class="card" id="bug">
+            <h2>卡关BUG与误区纠正</h2>
+            <ul>
+                <li>自选礼盒奖励货币有时不到账，属于官方系统问题，等待后续修复即可</li>
+                <li>部分噜咪进化后会卡住任务进度，做任务的宠物暂时不要轻易进化</li>
+                <li>战斗卡顿无响应，直接重启游戏即可恢复</li>
+                <li>彩色噜咪进化有概率降级变成金色，稀有彩宠建议谨慎进化</li>
+            </ul>
+            <p><strong>新手误区纠正：</strong></p >
+            <p>1. 误区：觉得彩色一定比金色强 → 纠正：部分金宠实用性远超彩宠，不要盲目迷信彩色。</p >
+            <p>2. 误区：随便进化彩宠 → 纠正：彩宠有概率降级，前期不要轻易进化。</p >
+            <p>3. 误区：平均培养多只噜咪 → 纠正：资源分散，谁都练不强，越玩越吃力。</p >
+        </div>
+    </div>
+</body>
+</html>
